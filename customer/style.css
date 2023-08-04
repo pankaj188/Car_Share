@@ -1,0 +1,263 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*------------- Main code index-------------*/
+ .wrapper
+{
+    /* height: 720px;
+    width: 1535px;
+    background-color: rgb(76, 117, 230); */
+    height: 720px;
+    width: 1535px;
+    background-color: aliceblue;
+}
+header
+{
+    /* height: 130px;
+    width: 1535px;
+    background-color: rgb(32, 29, 29); */
+    height: 160px;
+    width: 1535px;
+    background-color: black;
+
+}
+section 
+{
+    /*height: 450px;
+    width: 1535px; */
+    height: 480px;
+    width: 1535px; 
+    background-color:aliceblue;  
+}
+footer
+{
+    /* height: 140px;
+    width: 1535px;
+    background-color: rgb(22, 22, 20); */
+    height: 80px;
+    width: 1535px;
+    background-color:aliceblue;
+}  
+
+.logo 
+{
+    float: left;
+    padding-top: 30px; 
+    padding-left: 20px; 
+/* margin: auto;
+background-color: hsl(0, 0%, 90%);
+transition: background-color 300ms;
+width: 300px;
+height: 130px;
+float: left; */
+} 
+.logo img
+{
+    
+     padding-left: 50px;  
+}
+li a 
+{
+   
+    color:aliceblue;
+    text-decoration: none;
+     
+
+}
+/* nav
+{
+     float: right;
+     word-spacing: 30px;
+    padding: 20px;  
+}
+nav li 
+{
+    display: inline-block;
+    line-height: 80px;  */
+/* } */
+/* .cot li
+{
+    /* display: inline-block;
+    float: left;
+    word-spacing: 5px;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 80px; 
+}  
+
+ section img
+{
+    height: 400px;
+    width: 1535px; 
+
+
+}  
+ 
+ section .sec_img 
+{ 
+    margin-top: 0px;
+     background-image: url("Images/6.jpg");  
+} 
+   section img
+{   height:430px;
+    width:1535px;
+    margin-top: 0px;
+     background-image: url("images/6.jpg") ; 
+}    
+ section .sec_img
+{ 
+     height: 430px;
+    width: 1535px; 
+    margin-top:0px;
+    background-color:aliceblue;
+
+
+} */
+
+/*-------------- Customer-login--------*/
+.log_img
+{
+    height:560px;
+    width:1535px;
+    background-image: url("images/cs.jpeg") ;
+
+}
+.box1 
+{
+    
+    height: 450px;
+    width: 450px;
+    background-color:black;  
+    margin: 0px auto ;
+	 opacity: .7; 
+	color:aliceblue;
+    padding: 20px;
+}  
+form .login
+{
+    margin:auto 50px;
+}
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*------------------REGISTRATION-LOGIN-------*/
+ .reg_img
+{
+    height: 560px;
+    width: 1535px;
+   
+    background-image: url("images/cs.jpeg") ;
+
+}
+/* .box2
+{
+    height: 450px;
+    width: 450px;
+    background-color:black;  
+    margin: 0px auto ;
+	opacity: .7; 
+	color:aliceblue;
+    padding: 20px;
+}   */
